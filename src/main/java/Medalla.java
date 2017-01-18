@@ -1,6 +1,4 @@
-/**
- * Created by DAM on 16/12/16.
- */
+
 public class Medalla {
     private long id;
     private TipoMedalla tipoMedalla;

@@ -1,11 +1,9 @@
 import retrofit2.Call;
 import retrofit2.http.*;
-
 import java.util.List;
 import java.util.Map;
 
 public interface AtletaService {
-
 
     @GET("/atletas")
     Call<List<Atleta>> getAtletas();
@@ -21,7 +19,6 @@ public interface AtletaService {
 
     @GET("/atletas/groupby/nacionalidad")
     Call<Map<String, List<Atleta>>> getAtletasGroupByNacionalidad();
-
 
 
 

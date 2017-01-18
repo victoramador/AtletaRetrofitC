@@ -10,7 +10,6 @@ public class Atleta {
     private String nacionalidad;
     private LocalDate fechaNacimiento;
 
-
     public Atleta(){
 
     }
@@ -21,8 +20,6 @@ public class Atleta {
         this.fechaNacimiento = fechaNacimiento;
 
     }
-
-
 
     public long getId() {
         return id;
